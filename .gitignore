@@ -4,7 +4,7 @@
 #tf state files
 *.tfstate
 *.tfstate.*
-*.terraform.*
+*.exe
 
 #terraform variable files
 *.tfvars
