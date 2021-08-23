@@ -108,6 +108,7 @@ data "aws_ami" "lastest-amazon-linux-image" {
   }
 }
 
+
 #Now deploy VM using AMI
 
 resource "aws_instance" "myapp-server" {
@@ -142,7 +143,6 @@ output "public_ip" {
   value = aws_instance.myapp-server.public_ip
 
 }
-
 
 
 
